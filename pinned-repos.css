@@ -1,0 +1,45 @@
+/**
+ *  Pinned repos © 2017 olback
+ */
+
+.repo {
+    height: 100px;
+    width: 360px;
+    border: 1px solid #e1e4e8;
+    border-radius: 3px;
+    padding: 16px;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 18px;
+    color: #586069;
+    margin: 2px;
+    display: none;
+}
+
+.repo > a {
+    font-size: 16px;
+    color: #0366d6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.repo > p {
+    height: 36px;
+}
+
+.repo-stars {
+    margin-left: 20px;
+    display: none;
+    color: #586069 !important;
+    font-weight: lighter !important;
+}
+
+.repo-forks {
+    margin-left: 20px;
+    display: none;
+    color: #586069 !important;
+    font-weight: lighter !important;
+}
+
+.repo-stars:hover, .repo-forks:hover {
+    color: #0366d6 !important;
+}
