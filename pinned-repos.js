@@ -10,10 +10,10 @@ window.onload = () => {
     const show = [
         "gta-session",
         "rdg-linux",
-        "git-gud",
-        "devRant-computercraft",
+        "new-tab-extension",
         "bar-vscode",
-        "simple-whois-lookup"
+        "simple-whois-lookup",
+        "devRant-computercraft"
     ];
 
     const url = "https://api.github.com/users/" + github_username + "/repos?client_id=" + client_id + "&client_secret=" + client_secret;
